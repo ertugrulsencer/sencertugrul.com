@@ -1,0 +1,55 @@
+@keyframes rotateZ{
+  from{
+    transform: rotateZ(0deg);
+  }to{
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes loading-icon-first{
+  0%{
+    transform:translate(-50%, -50%) rotateZ(45deg);
+  }50%{
+    transform:translate(-50%, -50%) rotateZ(-45deg);
+  }100%{
+    transform:translate(-50%, -50%) rotateZ(45deg);
+  }
+}
+@keyframes loading-icon-last{
+  0%{
+    transform:translate(-50%, -50%) rotateZ(-90deg);
+  }50%{
+    transform:translate(-50%, -50%) rotateZ(90deg);
+  }100%{
+    transform:translate(-50%, -50%) rotateZ(-90deg);
+  }
+}
+@keyframes loading-text{
+  0%{
+    transform: scale(1);
+  }50%{
+    transform: scale(1.5);
+  }100%{
+    transform: scale(1);
+  }
+}
+@keyframes intro-scroll{
+  from{
+    transform: translate(-50%, 0px);
+    opacity: 1;
+  }to{
+    transform: translate(-50%, 24px);
+    opacity: 0;
+  }
+}
+@keyframes intro-line{
+  0%{
+    opacity: 0;
+    transform: translate(-50%, 0) scaleY(1);
+  }30%{
+    opacity: 1;
+  }100%{
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, 150%) scaleY(0.4);
+  }
+}

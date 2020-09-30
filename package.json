@@ -1,0 +1,32 @@
+{
+  "name": "sencertugrul.com",
+  "version": "1.0.0",
+  "description": "This is my blog",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ertugrulsencer/sencertugrul.git"
+  },
+  "keywords": [
+    "blog",
+    "ertugrul",
+    "sencer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ertugrulsencer/sencertugrul/issues"
+  },
+  "homepage": "https://github.com/ertugrulsencer/sencertugrul#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  }
+}

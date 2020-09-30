@@ -1,0 +1,59 @@
+@media (max-width: 480px){
+  $pagePadding: 0 1rem;
+  $pagePaddingL: 0 0 0 1rem;
+  $pagePaddingR: 0 1rem 0 0;
+
+  $pageMargin: 0 1rem;
+  $pageMarginL: 0 0 0 1rem;
+  $pageMarginR: 0 1rem 0 0;
+  body{
+    .wrapper{
+      .nav{
+        padding: $pagePadding!important;
+      }
+      .intro{
+        &-header h2{
+          font-size: 21px!important;
+        }
+        &-small p{
+          font-size: 16px!important;
+          line-height: 150%;
+        }
+        &-icons{
+          justify-content: space-between!important;
+          .icon{
+            height: 42px!important;
+            width: 42px!important;
+            line-height: 42px!important;
+            font-size: 20px!important;
+            margin: 2rem!important;
+          }
+        }
+      }
+      .skill-bars{
+        padding: 0 1rem!important;
+      }
+      .skill-techs{
+        border-left: 0!important;
+        padding-top: 1rem!important;
+        .skill-tech{
+          font-size: 12px!important;
+        }
+      }
+      .portfolyo{
+        margin: $pageMargin!important;
+        &-card{
+          flex-wrap: wrap!important;
+          &-img{
+            margin-bottom: 1rem!important;
+          }
+        }
+      }
+      .galeri{
+        max-width: 100vw!important;
+        margin: $pageMargin!important;
+        grid-template-columns: repeat(2, 1fr)!important;
+      }
+    }
+  }
+}

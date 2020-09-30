@@ -1,0 +1,35 @@
+/*
+#Intro:not(:target){
+  .intro-header h2, .intro-small p{
+    transform: scaleX(0);
+  }
+  .intro-icons .icon{
+    transform: rotate(0);
+  }
+}
+#Intro:target{
+  .intro-header h2, .intro-small p{
+    transform: scaleX(1);
+  }
+  .intro-icons .icon{
+    transform: rotate(360deg);
+  }
+}
+#Skills:target + .skills{
+  .skill-bar{
+    transform: scaleX(1);
+  }
+  .skill-techs .skill-tech{
+    transform: scale(1);
+  }
+
+}
+#Skills:not(:target) + .skills{
+  .skill-bar{
+    transform: scaleX(0);
+  }
+  .skill-techs .skill-tech{
+    transform: scale(0);
+  }
+}
+*/
